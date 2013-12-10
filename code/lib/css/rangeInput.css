@@ -1,0 +1,53 @@
+.input-range-slider {
+    width: 250px;
+    position: relative;
+    text-align: center;
+}
+.input-range-slider input {
+    width: 248px;
+    text-align: center;
+    border-bottom: 0;
+    border-left: 1px solid #dddddd;
+    border-top: 1px solid #dddddd;
+    border-right: 1px solid #dddddd;
+    padding: 2px 0 2px 0;
+}
+.input-range-slider .ui-slider-horizontal {
+    height: .2em;
+    width: 248px;
+    border-color: #dddddd;
+    margin-top: -2px;
+    border-radius: 0;
+}
+.input-range-slider .ui-slider .ui-slider-handle {
+    height: .6em;
+    width: .4em;
+    margin-left: -5px;
+}
+.input-range-slider span.error {
+    background: #f2d54b;
+    position: absolute;
+    top: -20px;
+    right: 0;
+    padding: 3px 10px 3px 10px;
+    margin: 0;
+    color: #000000;
+    font-family: Arial;
+    font-size: .6em;
+}
+
+.input-range-slider .min {
+    position: absolute;
+    left: 0;
+    bottom: -12px;
+    font-family: Arial;
+    font-size: 10px;
+}
+
+.input-range-slider .max {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    font-family: Arial;
+    font-size: 10px;
+}
